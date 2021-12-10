@@ -6,6 +6,14 @@ public class Funcionario {
 	private String cargo;
 	private double salario;
 
+	public Funcionario(int numeroFuncional, String nome, String cargo, double salario) {
+		super();
+		this.numeroFuncional = numeroFuncional;
+		this.nome = nome;
+		this.cargo = cargo;
+		this.salario = salario;
+	}
+
 	public int getNumeroFuncional() {
 		return numeroFuncional;
 	}
